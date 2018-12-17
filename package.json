@@ -1,0 +1,27 @@
+{
+  "name": "ds-tokens",
+  "description": "Scripts to convert YAML tokens into various formats (JSON, SCSS, etc.) for design systems.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/scottmccaughey/ds-tokens",
+  "bugs": {
+    "url": "https://github.com/scottmccaughey/ds-tokens/issues"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottmccaughey/ds-tokens.git"
+  },
+  "bin": {
+    "ds-tokens": "bin/ds-tokens"
+  },
+  "scripts": {},
+  "devDependencies": {},
+  "dependencies": {
+    "js-yaml": "^3.12.0",
+    "json-to-sass-map": "^1.0.1",
+    "minimist": "^1.2.0",
+    "node-dir": "^0.1.17",
+    "through2": "^3.0.0",
+    "yamljs": "^0.3.0"
+  }
+}
